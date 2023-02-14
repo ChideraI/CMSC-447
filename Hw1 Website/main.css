@@ -1,0 +1,75 @@
+body {background-color: lavender;}
+h1 
+{
+    color: teal ; 
+    text-align: center;
+}
+p 
+{
+    font-family: verdana;
+    font-size: 20px;
+    color: teal;
+}
+.topnav {
+    background-color: lavender;
+    overflow: hidden;
+    margin: -10px;
+}
+
+.topnav a {
+    float: right;
+    color: teal;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    border-color: black;
+    font-size: 17px;   
+}
+
+.topnav :hover {
+    background-color: #ddd;
+    transition: 0.2s;
+    color: teal;
+}
+
+.topnav a.active {
+    color: teal;
+}
+
+.images{
+    padding: 5px;
+}
+
+.paragraph{
+    color: teal ; 
+    text-align: center;
+    font-family:"Monaco",monospace;
+    font-size: 20px;
+}
+
+.bio{
+    color: teal ; 
+    text-align: left;
+    font-family:"Monaco",monospace;
+    font-size: 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  .column {
+    float: center;
+    width: 50%;
+    padding: 5px;
+    height: 900px;
+  }
+
+.imageHeader {
+    padding: 5px;
+}
+  
+  
